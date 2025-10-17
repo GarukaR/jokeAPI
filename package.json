@@ -1,0 +1,29 @@
+{
+  "name": "jokeapi-dev",
+  "version": "1.0.0",
+  "description": "API that provide the ability to manage data and mainly get jokes on request",
+  "keywords": [
+    "API",
+    "Joke"
+  ],
+  "homepage": "https://github.com/GarukaR/jokeAPI#readme",
+  "bugs": {
+    "url": "https://github.com/GarukaR/jokeAPI/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GarukaR/jokeAPI.git"
+  },
+  "license": "ISC",
+  "author": "garukar",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
